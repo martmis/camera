@@ -4,6 +4,8 @@ from PyQt5.QtGui import *
 from PyQt5.QtCore import QTimer
 import sys
 import cv2
+from pyzbar import pyzbar
+
 
 class Camera(QDialog):
     def __init__(self):
